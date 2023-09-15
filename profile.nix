@@ -8,7 +8,12 @@
     sessionVariables = {
        EDITOR = "nvim";
        TERMINAL = "alacritty";
+       TERM = "alacritty";
        BROWSER = "firefox";
+       DMENU = "rofi -dmenu";
+       PDF = "zathura";
+       VIDEO = "mpv";
+       PICTURE = "sxiv";
 
        XDG_CONFIG_HOME = "$HOME/.config";
        XDG_CACHE_HOME = "$HOME/.cache";

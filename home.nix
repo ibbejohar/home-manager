@@ -5,15 +5,20 @@
     ./packages.nix
     ./profile.nix
 
-    ./config/alacritty.nix
-    ./config/neovim.nix
-    ./config/bashrc.nix
-    ./config/inputrc.nix
-    ./config/ncmpcpp.nix
-    ./config/mpd.nix
-    ./config/gtk.nix
-    ./config/gh.nix
-
+    ./config/alacritty/alacritty.nix
+    ./config/shell/bashrc.nix
+    ./config/shell/inputrc.nix
+    ./config/ncmpcpp/ncmpcpp.nix
+    ./config/mpd/mpd.nix
+    ./config/gtk/gtk.nix
+    ./config/github/gh.nix
+    ./config/tmux/tmux.nix
+    ./config/zathura/zathura.nix
+    ./config/pandoc/pandoc.nix
+#    ./config/qtile/config.nix
+#    ./config/kitty/kitty.nix
+    ./config/nvim/init.nix
+    
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -36,6 +41,7 @@
   programs.home-manager.enable = true;
 
   services = {
+    picom.enable = true;
   
   };
 }

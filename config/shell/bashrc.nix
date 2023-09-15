@@ -5,6 +5,10 @@ programs = {
 
   bash = {
     enable = true;
+    bashrcExtra = ''
+    echo "Be So Good That They Can't Ignore You"
+    set -o vi
+    '';
     shellAliases = {
 
     ls = "exa";
@@ -12,6 +16,7 @@ programs = {
     l = "exa -la";
 
     vim = "nvim";
+    v = "nvim";
 
     c = "clear";
     e = "exit";
@@ -23,9 +28,15 @@ programs = {
     shutdown = "shutdown now";
 
     home-switch = "home-manager switch";
-    homeconf = "nvim ~/.config/home-manager/home.nix";
 
-    sdc1 = "sudo mount /dev/sdc1 /media/sdc1";
+    sdc1 = "cd /media/sdc1";
+
+    yt-audio = "yt-dlp -x --audio-format mp3 --audio-quality 0";
+    zd = "source zd";
+    ytfzf = "ytfzf -t --preview-side=right";
+
+    hibernate="systemctl hibernate";
+    code = "cd ~/Documents/code";
 
     };
   };

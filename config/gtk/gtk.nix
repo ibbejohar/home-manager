@@ -8,8 +8,13 @@
     theme.name = "Dracula";
     iconTheme.package = pkgs.numix-icon-theme;
     iconTheme.name = "Numix";
-    cursorTheme.package = pkgs.bibata-cursors;
-    cursorTheme.name = "Bibata-Modern-Classic";
+  };
+
+  xsession.pointerCursor = {
+    package = pkgs.bibata-cursors;
+    defaultCursor = "Bibata-Modern-Classic";
+    name = "Bibata-Modern-Classic";
+    size = 16;
   };
 
 }
