@@ -14,6 +14,7 @@
        PDF = "zathura";
        VIDEO = "mpv";
        PICTURE = "sxiv";
+       NIXPKGS_ALLOW_INSECURE = 1;
 
        XDG_CONFIG_HOME = "$HOME/.config";
        XDG_CACHE_HOME = "$HOME/.cache";

@@ -3,17 +3,20 @@
 {
   home = {
     packages = with pkgs; [
+      angband
       anki
       audacity
       bitwarden
+      bk
       cargo
       cinnamon.nemo
       cryptsetup
       deno
       discord
       dunst
-      emacs
-      exa
+      eza
+      feh
+      ffmpeg-full
       file
       fzf
       gcc
@@ -21,8 +24,12 @@
       go
       htop
       imagemagick
+      luajit
+      luajitPackages.magick
+      luarocks
       lutris
       lxappearance
+      maim
       mpc-cli
       mpd
       mpv
@@ -34,6 +41,8 @@
       openssl
       pkg-config
       popcorntime
+      porsmo
+      prismlauncher
       qalculate-gtk
       qbittorrent
       rust-analyzer
@@ -41,14 +50,21 @@
       sc-im
       slides
       sxiv
+      telegram-desktop
       texlive.combined.scheme-full
       thunderbird
-      ueberzug
+      tuir
+      ueberzugpp
+      unrar-wrapper
       unzip
+      wezterm
+      wiki-tui
       wineWowPackages.staging
+      xclip
+      youtube-tui
       yt-dlp
       zip
-      google-chrome
       ];
   };
+
 }

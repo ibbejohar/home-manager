@@ -8,12 +8,13 @@ programs = {
     bashrcExtra = ''
     echo "Be So Good That They Can't Ignore You"
     set -o vi
+    # bind -x '"zd\t": zd'
     '';
     shellAliases = {
 
-    ls = "exa";
-    ll = "exa -l";
-    l = "exa -la";
+    ls = "eza";
+    ll = "eza -l";
+    l = "eza -la";
 
     vim = "nvim";
     v = "nvim";
@@ -33,7 +34,8 @@ programs = {
 
     yt-audio = "yt-dlp -x --audio-format mp3 --audio-quality 0";
     zd = "source zd";
-    ytfzf = "ytfzf -t --preview-side=right";
+    youtube = "youtube-tui";
+    reddit = "tuir --enable-media";
 
     hibernate="systemctl hibernate";
     code = "cd ~/Documents/code";

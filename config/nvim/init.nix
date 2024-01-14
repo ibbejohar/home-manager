@@ -2,9 +2,9 @@
 
 {
   imports = [
-   ./lua/config.nix
+   #./lua/config.nix
    # ./lua/settings.nix
-   ./lua/plugins.nix
+   #./lua/plugins.nix
    # ./lua/telescope.nix
    # ./lua/lsp_config.nix
    # ./lua/nvim_cmp.nix
@@ -16,6 +16,7 @@
     package = pkgs.neovim-unwrapped;
     defaultEditor = true;
     vimAlias = true;
+    extraLuaPackages = ps: [ ps.magick ];
   };
 
 }

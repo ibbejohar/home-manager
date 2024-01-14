@@ -5,7 +5,7 @@
   programs = {
     ncmpcpp = {
       enable = true;
-      mpdMusicDir = "/media/sdc1/music";
+      mpdMusicDir = "/media/ColdStorage/music";
     };
   };
 

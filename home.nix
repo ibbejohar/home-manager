@@ -6,18 +6,21 @@
     ./profile.nix
 
     ./config/alacritty/alacritty.nix
+    ./config/dunst/dunst.nix
+    ./config/github/gh.nix
+    ./config/gtk/gtk.nix
+    ./config/himalaya/himalaya.nix
+    ./config/mpd/mpd.nix
+    ./config/ncmpcpp/ncmpcpp.nix
+    ./config/newsboat/newsboat.nix
+    ./config/nvim/init.nix
+    ./config/pandoc/pandoc.nix
     ./config/shell/bashrc.nix
     ./config/shell/inputrc.nix
-    ./config/ncmpcpp/ncmpcpp.nix
-    ./config/mpd/mpd.nix
-    ./config/gtk/gtk.nix
-    ./config/github/gh.nix
     ./config/tmux/tmux.nix
     ./config/zathura/zathura.nix
-    ./config/pandoc/pandoc.nix
-#    ./config/qtile/config.nix
 #    ./config/kitty/kitty.nix
-    ./config/nvim/init.nix
+#    ./config/qtile/config.nix
     
   ];
 
