@@ -31,6 +31,7 @@
     stateVersion = "22.11"; # Please read the comment before changing.
 
     # USER
+    # mutableUsers = true; ADD this in NixOS config
     username = "fool";
     homeDirectory = "/home/fool";
 
