@@ -22,12 +22,15 @@
       gcc
       gimp
       go
+      htmlq
       htop
       imagemagick
+      libqalculate
       luajit
       luajitPackages.magick
       luarocks
       lutris
+      python3
       lxappearance
       maim
       mpc-cli
@@ -39,6 +42,9 @@
       nodePackages_latest.readability-cli
       nodejs
       openssl
+      pass
+      passExtensions.pass-tomb 
+      pinentry
       pkg-config
       popcorntime
       porsmo
@@ -49,10 +55,11 @@
       rustc
       sc-im
       slides
-      sxiv
+      nsxiv
       telegram-desktop
       texlive.combined.scheme-full
       thunderbird
+      tomb
       tuir
       ueberzugpp
       unrar-wrapper

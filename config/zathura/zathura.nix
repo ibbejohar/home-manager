@@ -39,6 +39,8 @@
       default-fg = "#eeeeee";
       recolor-lightcolor = "#0f0f17";
       recolor-darkcolor = "#eeeeee";
+
+      selection-clipboard = "clipboard";
     };
     mappings = {
       f = "toggle_fullscreen";

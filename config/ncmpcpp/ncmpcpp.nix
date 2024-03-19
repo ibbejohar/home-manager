@@ -9,7 +9,6 @@
       settings = {
         mpd_host = "localhost";
         mpd_port = "6600";
-        mpd_music_dir = "/media/ColdStorage/music/";
 
         lyrics_directory = "~/.config/ncmpcpp/";
         ncmpcpp_directory = "~/.config/ncmpcpp/";

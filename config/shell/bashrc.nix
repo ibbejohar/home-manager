@@ -40,6 +40,10 @@ programs = {
     hibernate="systemctl hibernate";
     code = "cd ~/Documents/code";
 
+    qalc = "qalc -c";
+
+    sxiv = "nsxiv";
+
     };
   };
 };

@@ -17,8 +17,10 @@
     ./config/pandoc/pandoc.nix
     ./config/shell/bashrc.nix
     ./config/shell/inputrc.nix
+    ./config/shell/xresources.nix
     ./config/tmux/tmux.nix
     ./config/zathura/zathura.nix
+    ./config/gnupg/gnupg.nix
 #    ./config/kitty/kitty.nix
 #    ./config/qtile/config.nix
     
